@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Тех задание</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/favorite_24px.svg" type="image/-icon">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="media/media.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<body>
+  <main class="main-container">
+    <header class="header">
+      <div class="inner_header">
+        <div class="left_logo">
+          <a href="#"><img src="image/Vector.svg" alt="logo img">ImageStock</a>
+        </div>
+        <div class="inner_btn">
+          <button class="nav-btn" type="button" data-tab="#tab_1"><img src="image/search_24px.svg"
+              alt="icon">Поиск</button>
+          <button class="nav-btn" type="button" data-tab="#tab_2"><img src="image/favorite_24px.svg"
+              alt="icon">Избранное</button>
+          <button class="nav-btn" type="button" data-tab="#tab_3"><img src="image/history_24px.svg" alt="icon">История
+            поиска</button>
+        </div>
+      </div>
+    </header>
+    <div class="tabs__content">
+      <div class="tabs_page" id="tab_1">
+        <div class="page_search">
+          <div class="up_inner_search">
+            <input class="query" type="text" placeholder="Поиск" value="">
+            <div class="line"></div>
+            <div class="inner_btn_search">
+              <button class="searchBtn">Поиск</button>
+              <button class="clear">Очистить</button>
+            </div>
+            <div class="history"></div>
+          </div>
+          <div class="btn_inner">
+            <div class="block_for_button">
+              <div class="left_btn">
+                <div class="line_btn"></div>
+                <div class="line_btn"></div>
+              </div>
+              <div class="right_btn">
+                <div class="left">
+                  <div class="line_btn"></div>
+                  <div class="line_btn"></div>
+                </div>
+                <div class="right">
+                  <div class="line_btn"></div>
+                  <div class="line_btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="under_page_img">
+            <div class="results">
+              <div class="blur"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabs_page" id="tab_2">
+        <div class="inner_favorite">
+          <div class="btn_inner_favorite">
+            <h2>Избранное</h2>
+            <div class="block_for_button">
+              <div class="left_btn">
+                <div class="line_btn"></div>
+                <div class="line_btn"></div>
+              </div>
+              <div class="right_btn">
+                <div class="left">
+                  <div class="line_btn"></div>
+                  <div class="line_btn"></div>
+                </div>
+                <div class="right">
+                  <div class="line_btn"></div>
+                  <div class="line_btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="favorite">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tabs_page" id="tab_3">
+        <div class="inner_img">
+          <div class="content_inner">
+            <h2>Похожие фотографии</h2>
+          </div>
+<div class="img"></div>
+        </div>
+        
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'San Francisco(SF UI)';
+    src: local('San Francisco(SF UI) Display Medium'), local('San-Francisco(SF-UI)-Display-Medium'),
+        url('SFUIDisplay-Medium.woff2') format('woff2'),
+        url('SFUIDisplay-Medium.woff') format('woff'),
+        url('SFUIDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

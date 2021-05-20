@@ -1,0 +1,188 @@
+@media screen and (max-width: 1200px) {
+body {
+    font-size: 90%;
+}
+.results {
+    width: 81vw;
+}
+.favorite {
+    width: 81vw;
+}
+.inner_img .img{
+    width: 81vw;
+    display: flex;
+    justify-content: center;
+}
+.up_inner_search {
+    min-height: 20vh;
+}
+}
+
+@media screen and (max-width: 1025px) {
+.inner_btn{
+    width: 40%;
+}
+.results img{
+    width: 25vw;
+    height: 30vh;
+}
+.favorite img {
+    width: 25vw;
+    height: 30vh;
+}
+.inner_img .img img{
+    width: 25vw;
+    height: 30vh;
+}
+}
+
+@media screen and (max-width: 925px){
+.inner_btn{
+    width: 45%;
+} 
+.results img{
+    width: 25vw;
+    height: 40vh;
+}
+.favorite img {
+    width: 25vw;
+    height: 40vh;
+}
+.inner_img .img img{
+    width: 25vw;
+    height: 40vh;
+}
+}
+@media screen and (max-width: 850px){
+.inner_btn {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 769px){
+.inner_btn{
+    width: 55%;
+} 
+.results {
+    width: 99vw;
+}
+.results img {
+    width: 25vw;
+    height: 30vh;
+}
+.favorite {
+    width: 99vw;
+}
+.favorite img {
+    width: 25vw;
+    height: 30vh;
+}
+.inner_img .img {
+    width: 99vw;
+}
+.inner_img .img img {
+    width: 25vw;
+    height: 30vh;
+}
+}
+@media screen and (max-width: 716px){
+.inner_btn {
+    width: 60%;
+}
+}
+@media screen and (max-width: 651px) {
+body {
+    font-size: 50%;
+}
+.left_logo a {
+   font-size: 0; 
+}
+.inner_btn button{
+    font-size: 0;
+}
+.inner_btn {
+    width: 30%;
+}
+.inner_header {
+    width: 95%;
+}
+.up_inner_search {
+    min-height: 180px;
+}
+.btn_inner_favorite h2{
+    margin: 15px;
+}
+.btn_inner_favorite{
+    min-height: 150px;
+}
+.results img {
+    width: 95vw;
+    height: 100vh;
+}
+.favorite img {
+    width: 95vw;
+    height: 100vh;
+}
+.inner_img .img img {
+    width: 95vw;
+    height: 100vh;
+}
+}
+
+@media screen and (max-width: 451px){
+    .inner_btn {
+    width: 50%;
+}
+.up_inner_search {
+    min-height: 150px;
+}
+.results img {
+    width: 95vw;
+    height: 70vh;
+}
+.inner_img .img img {
+    width: 95vw;
+    height: 70vh;
+}
+.favorite img {
+    width: 95vw;
+    height: 70vh;
+}
+}
+
+@media screen and (max-width: 415px){
+    .inner_btn {
+    width: 50%;
+}
+
+}
+@media screen and (max-width: 319px){
+    
+.results img {
+    width: 95vw;
+    height: 40vh;
+}
+.favorite img {
+    width: 95vw;
+    height: 40vh;
+}
+.inner_img .img img {
+    width: 95vw;
+    height: 40vh;
+}
+.inner_btn {
+    width: 100%;
+}
+.inner_header {
+    width: 95%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.left_logo {
+    width: 29%;
+}
+.inner_header{
+    max-height: 100px;  
+}
+
+}
